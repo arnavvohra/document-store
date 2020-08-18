@@ -46,7 +46,7 @@ let make_error =
       | CodeAlreadyRevoked => Int32 -5
       end
     in
-    { _eventname : "Error"; code : result_code }
+    { _exception : "Error"; code : result_code }
 
 
 (***************************************************)
